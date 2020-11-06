@@ -20,3 +20,7 @@ az keyvault key create -n insiderDSkey --vault-name insiderDSkv
 az deployment group create -n insiderDSaml -g $rg -f azuredeploy.json -p azuredeploy.parameters.json
 
 $ws="insiderDSaml1"
+
+## /subscriptions/c46a9435-c957-4e6c-a0f4-b9a597984773/resourceGroups/insiderDS/providers/Microsoft.KeyVault/vaults/insiderDSkv
+## https://insiderdskv.vault.azure.net/
+
